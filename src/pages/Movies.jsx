@@ -19,7 +19,7 @@ const Movies = () => {
 
   useEffect(() => {
     const getMovie = async () => {
-      if (query === null) return;
+      if (!query) return;
       try {
         await fetch(
           `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&language=en-US&query=${query}`
