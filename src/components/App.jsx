@@ -29,14 +29,12 @@ export const App = () => {
           }}
         >
           <nav>
-            <StyledLink to="/" end>
-              Home
-            </StyledLink>
+            <StyledLink to="/home">Home</StyledLink>
             <StyledLink to="/movies">Movies</StyledLink>
           </nav>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="movies/:movieId" element={<MovieDetails />}>
             <Route path="cast" element={<Cast />} />
