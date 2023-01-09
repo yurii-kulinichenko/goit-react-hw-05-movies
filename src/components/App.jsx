@@ -29,7 +29,7 @@ export const App = () => {
           }}
         >
           <nav>
-            <StyledLink to="/home">Home</StyledLink>
+            <StyledLink to="/">Home</StyledLink>
             <StyledLink to="/movies">Movies</StyledLink>
           </nav>
         </div>

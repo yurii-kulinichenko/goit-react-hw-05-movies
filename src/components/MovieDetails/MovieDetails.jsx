@@ -35,7 +35,7 @@ const MovieDetails = () => {
     <>
       {!loading && (
         <main>
-          <Link to={location.state?.from || '/home'}>Go back</Link>
+          <Link to={location.state?.from || '/'}>Go back</Link>
           <div className={css.main}>
             <img
               src={`${imageURL}${film.poster_path}`}
