@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.header {
+  margin-left: 20px;
+}
+
+.genre {
+  margin-right: 10px;
+}
